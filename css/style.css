@@ -45,6 +45,34 @@ body {
     font-family: 'Wendy One', sans-serif;
     font-size: 25px;
 }
+.control{
+    width: 200px;
+	background-color: #303853;
+	border-radius: 8px;
+    color: #fff;
+	padding: 25px;
+	position: absolute;
+	margin: 0 auto;
+	top: 200px;
+	z-index: 200;
+	cursor: pointer;
+	border: none;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 25px;
+}
+.down{
+    top: 11rem;
+    left: 0;
+	right: 0;
+}
+.left{
+    top: 5rem;
+    left: 20%;
+}
+.right{
+    top: 5rem;
+    right: 20%;
+}
 
 /* BOARD AND PIECES */
 #game-board {
@@ -150,4 +178,36 @@ circle {
 	left: 0;
 	right: 0;
 }
+
+@media screen and (max-width: 375px){
+    .control{
+        width: 200px;
+        background-color: #303853;
+        border-radius: 8px;
+        color: #fff;
+        padding: 25px;
+        position: absolute;
+        margin: 0 auto;
+        top: 200px;
+        z-index: 200;
+        cursor: pointer;
+        border: none;
+        font-family: 'Wendy One', sans-serif;
+        font-size: 25px;
+    }
+    .down{
+        top: 11rem;
+        left: 0;
+        right: 0;
+    }
+    .left{
+        top: 5rem;
+        left: 5%;
+    }
+    .right{
+        top: 5rem;
+        right: 5%;
+    }
+}
+
 
